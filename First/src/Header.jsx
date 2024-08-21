@@ -1,11 +1,13 @@
+import logo from "./assets/logo.png";
 function Header(){
     return (
         <header>
-            <h1>
-                This is my website
-            </h1>
             <nav>
-                <ul>
+                <div className="logo">
+                    <img src={logo} alt="logo" className="logo" />
+                </div>
+                
+                <ul> 
                 <li><a href="#">
                     Home
                 </a></li>
@@ -20,7 +22,6 @@ function Header(){
                 </a></li>
                 </ul>
                 </nav>
-                <hr></hr>
 
         </header>
     );

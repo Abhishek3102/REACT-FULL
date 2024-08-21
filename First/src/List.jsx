@@ -19,7 +19,11 @@ function List() {
 
     const listItems = fruits.map((fruit, index) => <li key={index}>{fruit.name}: &nbsp;
                                                        <b>{fruit.calories}</b></li>);
-    return (<ol>{listItems}</ol>);
+    return (
+    <div className="food">
+    <ol>{listItems}</ol>
+    </div>
+);
 
     
 }
