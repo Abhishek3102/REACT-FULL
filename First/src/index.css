@@ -10,6 +10,10 @@
   display: inline-block;
   
 }
+body{
+  /* color: #680747; */
+  background-color: #42b883;
+}
 
 h2{
   color:rgb(9, 181, 224)
