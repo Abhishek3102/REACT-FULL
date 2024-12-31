@@ -1,12 +1,14 @@
 body{
   font-family: "Ubuntu", sans-serif;
   color: white;
+  /* background-color: rgb(8, 2, 33); */
   background-color: rgb(8, 2, 33);
   margin: 0px;
   padding: 0px;
 }
 
 nav{
+  background-color: rgba(21, 10, 59, 0.8);
   background-color: rgba(21, 10, 59, 0.8);
   padding: 0px;
   margin: 0px;
@@ -26,15 +28,37 @@ nav ul li{
   padding: 13px;
 }
 
+@keyframes redBlackAnimation {
+  0% {
+    color: red;  /* Start with red */
+  }
+  50% {
+    color: black;  /* Change to black halfway through */
+  }
+  100% {
+    color: red;  /* End with red again */
+  }
+}
+
+.header-text{
+  text-align: center;
+  font-size: 50px;
+  /* color: red;  Start with red */
+  animation: redBlackAnimation 3s infinite;
+}
+
 nav ul li a{
   text-decoration: none;
   color: white;
 }
 
 .card{
+  /* background-color: rgb(8, 2, 33); */
   background-color: rgb(8, 2, 33);
+  /* border : 5px solid hsl(0,0,0); */
   border : 5px solid hsl(0,0,0);
   border-radius: 10px;
+  /* box-shadow: 0 4px 7px rgba(75, 0, 130, 0.8); */
   box-shadow: 0 4px 7px rgba(75, 0, 130, 0.8);
   padding: 20px;
   margin: 10px; 
@@ -58,6 +82,7 @@ nav ul li a{
 
 .card:active{
   background-color: rgb(38, 32, 63);
+  /* box-shadow: 0 4px 7px rgba(114, 63, 181, 0.7); */
   box-shadow: 0 4px 7px rgba(114, 63, 181, 0.7);
 }
 
@@ -65,6 +90,7 @@ nav ul li a{
   height: auto;
   max-width: 300px;
   border-radius: 10px;
+  /* box-shadow: 0 4px 7px rgba(1, 0, 39, 0.8); */
   box-shadow: 0 4px 7px rgba(1, 0, 39, 0.8);
 }
 
@@ -88,11 +114,13 @@ nav ul li a{
 }
 
 .info:hover{
+  /* text-shadow: 2px 2px 10px rgba(162, 108, 232, 0.7); */
   text-shadow: 2px 2px 10px rgba(162, 108, 232, 0.7);
 }
 
 .info h2{
   font-size: 60px;
+  /* color: rgb(233, 227, 227); */
   color: rgb(233, 227, 227);
 }
 
@@ -106,6 +134,7 @@ p{
 }
 
 .button{
+  /* background-color: hsl(200, 100%, 50%); */
   background-color: hsl(200, 100%, 50%);
   color:white;
   /* padding:10px 20px; */

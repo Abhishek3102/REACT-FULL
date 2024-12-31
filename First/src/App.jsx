@@ -6,7 +6,7 @@ import Button from "./Button"
 import Students from "./Students"
 import UserGreetings from "./UserGreetings.jsx"
 import List from "./List.jsx"
-import {people, students} from "./constants.js";
+import {people, students} from "./constants.jsx";
 import { useState } from "react";
 
 function App() {
@@ -24,7 +24,7 @@ function changeClick(){
 
   return (
     <>
-    <Header/>
+    <Header> <p>Future of Manchester United</p> </Header>
     <div className="cards">
     {
       people.map(item=>(
