@@ -7,6 +7,7 @@ body{
   padding: 0px;
 }
 
+
 nav{
   background-color: rgba(21, 10, 59, 0.8);
   background-color: rgba(21, 10, 59, 0.8);
@@ -137,6 +138,39 @@ p{
   color:white;
 }
 
+.About-content{
+  text-align: center;
+  
+}
+
+.Service-Content{
+  text-align: left;
+  margin-left: 15px;
+}
+
+.contact{
+  text-align: center;
+  color:chartreuse
+}
+
+.email{
+  color:aqua;
+  text-decoration: none;
+}
+
+.github{
+  color: darkgoldenrod;
+  text-decoration: none;
+}
+
+.link{
+  color: red;
+}
+
+.h1{
+  text-align: center;
+}
+
 .button{
   /* background-color: hsl(200, 100%, 50%); */
   background-color: hsl(200, 100%, 50%);
@@ -174,6 +208,16 @@ p{
   padding: 10px;
   border-radius: 5px;
   margin:2px;
+}
+
+footer{
+  /* background-color: #000; */
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
 .students{
