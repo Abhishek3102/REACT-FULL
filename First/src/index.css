@@ -33,7 +33,7 @@ nav ul li{
     color: red;  /* Start with red */
   }
   50% {
-    color: black;  /* Change to black halfway through */
+    color: rgb(255,255,255);  /* Change to black halfway through */
   }
   100% {
     color: red;  /* End with red again */
@@ -84,6 +84,10 @@ nav ul li a{
   background-color: rgb(38, 32, 63);
   /* box-shadow: 0 4px 7px rgba(114, 63, 181, 0.7); */
   box-shadow: 0 4px 7px rgba(114, 63, 181, 0.7);
+}
+
+.card:hover{
+  cursor: pointer;
 }
 
 .card img{
@@ -190,7 +194,7 @@ p{
   box-shadow: 0 4px 7px rgba(114, 63, 181, 0.7);
 }
 
-.calorieList{
+.playerList{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -215,7 +219,7 @@ button:active{
   box-shadow: 0 4px 7px rgba(114, 63, 181, 0.7);
 }
 
-.food{
+.players{
   padding: 15px;
   margin: 18px;
   box-shadow: 0 4px 7px rgba(114, 63, 181, 0.7);

@@ -8,6 +8,8 @@ import UserGreetings from "./UserGreetings.jsx"
 import List from "./List.jsx"
 import {people, students} from "./constants.jsx";
 import { useState } from "react";
+import "../src/index.css";
+// import ColorPicker from "./colorPicker.jsx";
 
 function App() {
 
@@ -24,11 +26,11 @@ function changeClick(){
 
   return (
     <>
-    <Header> <p>Future of Manchester United</p> </Header>
+    <Header>Future of Manchester United </Header>
     <div className="cards">
     {
       people.map(item=>(
-        <Card name={item.name} info={item.info} img={item.img}/>
+        <Card name={item.name} role={item.role} info={item.info} img={item.img}/>
       ))
     }
     </div>
@@ -41,13 +43,14 @@ function changeClick(){
           <Students name={student.name} age={student.age} position={student.position} isBestYoungPlayer={student.isBestYoungPlayer}/>
       ))}
     </div>
-    <div className="calorieList">
+    <div className="playerList">
     <Button handleClick={changeClick}/>
     {/* <UserGreetings isLoggedIn={true} username="Rashy"/> */}
      {isClicked && 
       <List/>
      }  
     </div>
+    {/* <ColorPicker/> */}
     <Footer/>
 
     </>

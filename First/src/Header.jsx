@@ -31,6 +31,7 @@
 
 import logo from "./assets/logo.png";
 import PropTypes from 'prop-types';
+import "../src/index.css";
 
 
 function Header({ children }) {  // Accept children as a prop

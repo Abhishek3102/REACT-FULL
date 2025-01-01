@@ -5,6 +5,7 @@ function Card(props){
             <div className="info">
             <h2>{props.name}</h2>
             <p>{props.info}</p>
+            <p><strong>Role : {props.role}</strong></p>
             </div>
         </div>
 
