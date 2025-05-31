@@ -140,17 +140,18 @@ p{
 
 .About-content{
   text-align: center;
-  
+  color:chartreuse;
 }
 
 .Service-Content{
-  text-align: left;
+  text-align: center;
   margin-left: 15px;
+  color:chartreuse
 }
 
 .contact{
   text-align: center;
-  color:chartreuse
+  color:chartreuse;
 }
 
 .email{
@@ -179,6 +180,10 @@ p{
   border-radius: 5px;
   border:none;
   cursor:pointer;
+}
+
+.click-button{
+  cursor: pointer;
 }
 
 /* .student{
